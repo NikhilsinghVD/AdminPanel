@@ -1,0 +1,63 @@
+.widgetlg{
+    flex: 2;
+    box-shadow: 12px 12px 17px -4px rgba(42,38,38,0.75);
+    -webkit-box-shadow: 12px 12px 17px -4px rgba(42,38,38,0.75);
+    -moz-box-shadow: 12px 12px 17px -4px rgba(42,38,38,0.75);
+    padding: 20px;
+    margin-right: 20px;
+    .widgetlgTitle{
+        font-size: 22px;
+    }
+    .widgetLgTable{
+        width: 100%;
+        border-spacing: 20px;
+        .widgetLgTr{
+            .widgetLgDate{
+                font-weight: 300;
+            }
+            .widgetLgAmount{
+                font-weight: 300;
+            }
+            .widgetLgUser{
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+            }
+            .widgetLgTh{
+                text-align: left;
+            }
+            .widgetLgImg{
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .widgetLgStatus{
+                .widgetLgbutton{
+                    padding: 5px 7px;
+                    border: none;
+                    border-radius: 10px;
+                }
+                .widgetLgbutton.Approved{
+                    background-color: rgb(172, 245, 172);   
+                    color: green;      
+                }
+                .widgetLgbutton.Declined{
+                    background-color: #fff0f1;      
+                    color: red;   
+                }
+                .widgetLgbutton.Pending{
+                    background-color: #ebf1fe;
+                    color: blue;         
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
