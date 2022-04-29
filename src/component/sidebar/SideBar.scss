@@ -4,6 +4,7 @@
     background-color: #fff;
     position: sticky;
     top: 50px;
+    width:20vw;
     .sidebarWrapper{
         padding: 20px;
         color: rgb(58, 57, 57);
@@ -23,13 +24,6 @@
                     align-items: center;
                     cursor: pointer;
                     border-radius: 10px;
-                    .sidebarIcons{
-                        margin-right: 5px;
-                        font-size: 20px !important;
-                    }
-                }
-                .sidebarListItem.active{
-                    background-color: rgb(153, 252, 219);
                 }
              }
         }

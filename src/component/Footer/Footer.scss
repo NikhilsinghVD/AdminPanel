@@ -1,0 +1,13 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    width: 100vw;
+    background-color: cadetblue;
+    span{
+      color: orange;
+      font-weight: bold;
+      font-size: 20px;
+      margin: 6px 0px;
+    }
+  }

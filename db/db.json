@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "firstname": "Amruta",
+      "lastname": "Khaire",
+      "email": "AK@gmail.com",
+      "phone": "8989865656",
+      "gender": "female",
+      "city": "mumbai",
+      "id": 6
+    },
+    {
+      "firstname": "Nikhilsingh",
+      "lastname": "Nikhilsingh Dhandoriya",
+      "email": "nvd1994@gmail.com",
+      "phone": "5656565656",
+      "gender": "male",
+      "city": "",
+      "id": 8
+    },
+    {
+      "firstname": "shubham",
+      "lastname": " Naik",
+      "email": "gfg@gmail.com",
+      "phone": "89895645342",
+      "gender": "male",
+      "city": "pune",
+      "id": 9
+    }
+  ]
+}

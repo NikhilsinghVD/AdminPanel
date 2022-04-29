@@ -1,144 +1,18 @@
-export const userData = [
-    {
-        name: 'Jan',
-        ActiveUser: 4000
-    },
-    {
-        name: 'Feb',
-        ActiveUser: 3000,
 
-    },
-    {
-        name: 'Mar',
-        ActiveUser: 2000,
-
-    },
-    {
-        name: 'Apr',
-        ActiveUser: 2780,
-
-    },
-    {
-        name: 'May',
-        ActiveUser: 1890,
-
-    },
-    {
-        name: 'Jun',
-        ActiveUser: 2390,
-
-    },
-    {
-        name: 'Jul',
-        ActiveUser: 3490,
-
-    },
-    {
-        name: 'Aug',
-        ActiveUser: 3490,
-
-    },
-    {
-        name: 'Sep',
-        ActiveUser: 3490,
-
-    },
-    {
-        name: 'Oct',
-        ActiveUser: 3490,
-
-    },
-    {
-        name: 'Nov',
-        ActiveUser: 3490,
-
-    },
-    {
-        name: 'Dec',
-        ActiveUser: 3490,
-
-    },
-];
-export const productData = [
-    {
-        name: 'Jan',
-        sales: 4000
-    },
-    {
-        name: 'Feb',
-        sales: 3000,
-
-    },
-    {
-        name: 'Mar',
-        sales: 2000,
-
-    },
-];
-
-export const userRows = [
-    {
-        id: 1, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 2, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 3, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 4, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 5, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 6, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 7, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 8, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 9, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    },
-    {
-        id: 10, username: 'Jhon Snow', avatar: "https://images.pexels.com/photos/762080/pexels-photo-762080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        email: "John34@gmail.com",
-        statuss: "active",
-        transaction: "120.00"
-    }
-];
-
+export const dataTable= {
+    headers:[
+        {header:"FirstName", feild:"firstname", col:2},
+        {header:"LastName", feild:"lastname", col:2},
+        {header:"Email", feild:"email", col:2},
+        {header:"Phone", feild:"phone", col:2},
+        {header:"Gender", feild:"gender", col:1},
+        {header:"City", feild:"city", col:1},
+    ],
+    data:[
+        {firstname:"jack", lastname:28, email:"nvd1994@gmail.com",phone:"7020156227",gender:"male", city:"Londan"},
+        {firstname:"jack", lastname:28, email:"nvd1994@gmail.com",phone:"7020156227",gender:"male", city:"Londan"},
+    ]
+};
 export const productRows = [
     {
         id: 1,

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Topbar.scss'
+import './Header.scss'
 //import { NotificationsNone } from '@material-ui/icons';
 import NotificationsTwoToneIcon from '@mui/icons-material/NotificationsTwoTone';
 import LanguageTwoToneIcon from '@mui/icons-material/LanguageTwoTone';
@@ -7,12 +7,15 @@ import SettingsApplicationsTwoToneIcon from '@mui/icons-material/SettingsApplica
 
 
 
-const Topbar = () => {
+const Header = () => {
     return (
         <div className='topbar'>
             <div className='topbarWrapper'>
                 <div className='topleft'>
-                    <span className='logo'>Lamaadmin</span>
+                    <span className='logo'>NIKHILSINGH</span>
+                </div>
+                <div className='s'>
+                    <input type='text'/>
                 </div>
                 <div className='topright'>
                     <div className='topbarIconContainer'>
@@ -31,4 +34,4 @@ const Topbar = () => {
     );
 }
 
-export default Topbar;
+export default Header;
